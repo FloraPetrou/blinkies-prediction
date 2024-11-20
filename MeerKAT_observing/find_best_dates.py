@@ -28,13 +28,13 @@ coords = {"J1646": FixedTarget(SkyCoord("16 46 22.7", "-44 05 41", frame="fk5", 
 
 # T0 = middle of eclipse, in MJD
 # THESE ARE PLACEHOLDERS UNTIL CONFIRMED BY FLORA
-T0s = {"J1646" : Time(59700, format='mjd', scale='utc', location=mkt.location),
-       "J1723" : Time(59788.54, format='mjd', scale='utc', location=mkt.location),
-       "J1728" : Time(59700, format='mjd', scale='utc', location=mkt.location),
-       "J1734" : Time(59765.611, format='mjd', scale='utc', location=mkt.location),
+T0s = {"J1646" : Time(59391.3601, format='mjd', scale='utc', location=mkt.location),
+       "J1723" : Time(59789.566010035276, format='mjd', scale='utc', location=mkt.location),
+       "J1728" : Time(60055.87090177478, format='mjd', scale='utc', location=mkt.location),
+       "J1734" : Time(59796.055897211045, format='mjd', scale='utc', location=mkt.location),
        "J1740" : Time(59700, format='mjd', scale='utc', location=mkt.location),
-       "J1752" : Time(59791.54, format='mjd', scale='utc', location=mkt.location),
-       "J1815" : Time(59732.73, format='mjd', scale='utc', location=mkt.location)}
+       "J1752" : Time(59806.71423232909, format='mjd', scale='utc', location=mkt.location),
+       "J1815" : Time(59740.04800876778, format='mjd', scale='utc', location=mkt.location)}
 
 # Orbital periods
 # GOOD FOR FLORA TO CHECK THESE
